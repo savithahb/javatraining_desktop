@@ -1,0 +1,33 @@
+#container{
+    overflow: hidden;
+}
+
+#content{
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 5px 5px 5px rgb(122, 154, 243);
+
+}
+
+#main-area{
+    float: left;
+    width: 75%;
+    min-height: 600px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+
+#right-bar{
+    border-left: 3px solid rgb(122, 154, 243);
+    width: 25%;
+    min-height: 600px;
+    box-sizing: border-box;
+    float: left;
+    background-color: whitesmoke;
+}
+
+#footer{
+    min-height: 100px;
+    width: 100%;
+    background-color: rgb(122, 154, 243);
+}
